@@ -4,12 +4,19 @@ body {
   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
 
-.year {
-  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-  font-size: smaller;
-
+/*Länkar*/
+a:link {
+  color: #1e2022;
+}
+a:visited {
+  color: #424852;
 }
 
+a:hover {
+  color: #c9d6df;
+}
+
+/*Heading*/
 h1 {color: #424852;
     font-family: Georgia, serif;
 
@@ -27,7 +34,13 @@ hr {
   width: 5%;
 }
 
+/*CLASSES */
 .new1 {
 border-top: 2px solid #424852;
 width: 100%;
+}
+
+.year {
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  font-size: smaller;
 }
