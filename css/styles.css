@@ -1,46 +1,81 @@
 body {
-  background-color: #f0f5f9;
-  color: #52616b;
-  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  margin: 0;
+  text-align: center;
+  font-family: 'Gentium Basic', serif;
 }
 
-/*Länkar*/
-a:link {
-  color: #1e2022;
-}
-a:visited {
-  color: #424852;
+.top-container {
+  background-color: #fbf0f0;
+  position: relative;
+  padding: 100px 100px;
 }
 
-a:hover {
-  color: #c9d6df;
+h1 {
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  color: #7c7575;
+  font-size: 5.625rem;
 }
 
-/*Heading*/
-h1 {color: #424852;
-    font-family: Georgia, serif;
-
-}
-h2 {color: #424852;
-  font-family: Georgia, serif;
+h2 {
+  font-family: 'Ubuntu', sans-serif;
+  color: #7c7575;
+  font-size: 2.5rem;
 }
 
+.subtitle {
+  font-weight: normal;
+  font-size: 1.5rem;
+}
 
-hr {
-  border-color: #c9d6df;
+h3 {
+  font-family: 'Ubuntu', sans-serif;
+  color: #b8b0b0;
+}
+
+table {
+  text-align: left;
+}
+
+.top-cloud {
+  position: absolute;
+  top: 50px;
+  right: 300px;
+}
+
+.middle-cloud {
+  position: absolute;
+  bottom: 150px;
+  right: 175px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 200px;
+  bottom: 50px;
+}
+
+.dotted {
+  border-color: #dfd3d3;
   border-style: none;
   border-top-style: dotted;
   border-width: 7px;
   width: 5%;
 }
 
-/*CLASSES */
-.new1 {
-border-top: 2px solid #424852;
-width: 100%;
+a {
+  color: #b8b0b0;
 }
 
-.year {
-  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-  font-size: smaller;
+/*Länkar*/
+a:link {
+  color: #424852;
+}
+
+a:visited {
+  color: #424852;
+}
+
+a:hover {
+  color: #b8b0b0;
 }
