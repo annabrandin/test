@@ -2,11 +2,16 @@ body {
   margin: 0;
   text-align: center;
   font-family: 'Gentium Basic', serif;
+  color: #40514E;
 
 }
 
 table {
   width:60%;
+}
+
+p {
+  line-height: 1.5;
 }
 
 .top-container {
@@ -16,6 +21,18 @@ table {
   margin-bottom:20px;
 }
 
+.middle-container {
+  margin: 100px 0;
+}
+
+.bottom-container {
+  background-color: #fbf0f0;
+  padding-bottom: 20px;
+}
+
+.copyright {
+  font-size: smaller;
+}
 
 .top-row {
   width: 50%;
@@ -26,7 +43,6 @@ table {
 width: 50%;
 margin: 100px auto;
 text-align: left;
-line-height: 1.5;
 }
 
 .referens {
@@ -35,8 +51,7 @@ line-height: 1.5;
 
 .contact-me {
 width: 50%;
-margin: 100px auto auto auto;
-line-height: 1.5;
+margin: 100px auto 50px auto;
 
 }
 
@@ -70,6 +85,7 @@ h2 {
   font-family: 'Ubuntu', sans-serif;
   color: #7c7575;
   font-size: 2.5rem;
+  padding-bottom: 10px;
 }
 
 .subtitle {
@@ -119,12 +135,17 @@ a {
 /*Länkar*/
 a:link {
   color: #424852;
+  text-decoration: none;
+
 }
 
 a:visited {
   color: #424852;
+text-decoration: none;
 }
 
 a:hover {
   color: #b8b0b0;
+  text-decoration: underline;
+
 }
